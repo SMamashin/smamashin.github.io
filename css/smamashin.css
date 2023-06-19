@@ -10,6 +10,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Gilroy';
+    display: block;
 
 }
 
@@ -162,4 +163,10 @@ body {
     color: #fff;
     font-size: 22px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+a, p, h1, header, main {
+    display: block;
+    height: auto;
 }
