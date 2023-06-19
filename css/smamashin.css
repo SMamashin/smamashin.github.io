@@ -23,11 +23,17 @@ body {
     margin: 0px 115px;
     justify-content: center;
     display: flex;
+    border: none;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #5d7197;
+    background-color: #474e698f;
+    width: auto;
 }
 
 #links-vk {
     text-decoration: underline;
-    font-size: 35px;
+    font-size: 45px;
     color: rgba(111, 132, 251, 0.682);
     margin: 25px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -35,7 +41,7 @@ body {
 
 #links-tg {
     text-decoration: underline;
-    font-size: 35px;
+    font-size: 45px;
     color: rgba(143, 241, 248, 0.748);
     margin: 25px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -43,7 +49,7 @@ body {
 
 #links-pr {
     text-decoration: #5d7197 underline;
-    font-size: 35px;
+    font-size: 45px;
     background: linear-gradient(300deg, #303134, #5d7bb2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -52,7 +58,7 @@ body {
 
 #links-site {
     text-decoration: underline;
-    font-size: 35px;
+    font-size: 45px;
     color: rgba(255, 0, 0, 0.484);
     margin: 25px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -130,7 +136,7 @@ body {
     display: block;
 	border: none;
 	background: none;
-	color: rgba(191, 145, 192, 0.574);
+	color: rgba(199, 109, 200, 0.574);
 	font-size: 18px;
 	text-align: center;
 	cursor: alias;
@@ -147,7 +153,18 @@ body {
 	cursor: alias;
     padding: 3px;
     margin: 2px;
-    transition: 0.5ms;
+    transition: 1s;
+    border: none;
+    border-radius: 45px 45px;
+    border-style: solid;
+
+
+}
+
+#bg-btn:active {
+	transform: scale(0.5);
+	box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    transition: 2s;
 
 }
 
