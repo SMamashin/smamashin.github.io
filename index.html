@@ -2,31 +2,55 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S-Mamashin</title>
-    <link rel="shortcut icon" href="icon/M.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <style>
-        .inter {
-            font-family: 'Inter', sans-serif;
-            padding: 1%;
-        }
-
-        .center {
-            width: 300px;
-            margin: 0 auto;
-        }
-
-    </style>
+    <link href="./css/smamashin.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="./source/favicon.png">
 
 </head>
-<body>
-    <main class="inter">
-        <h1>Hello World!</h1>
-    </main>
+<body id="bg">
+        <hr id="header-line">
+    <header id="header-sm">
+        <a id="links-vk" href="https://vk.com/evangelion1995">VK</a>
+        <a id="links-tg" href="https://t.me/thetraextra">TG</a>
+        <a id="links-pr" href="./projects.html">Projects</a>
+        <a id="links-site" href="https://smamashin.ru/">S-Site</a>
+        <button id="bg-btn">Mom here</button>
+    </header>
+        <hr id="header-line">
+
+    <div id="welcome">
+        <h1>Welcome to my website at github.pages.io !</h1>
+    </div>    
+
+    <center> <!--xd-->
+        <main id="main-sm" >
+            <p>This site is made specifically for my repository on 
+            github.pages.io therefore<br> its functionality is small and there is no optimization 
+            for mobile devices.</p>
+            <p>Above are my contacts and a section with my local projects.</p>
+            <p>If you have any suggestions, it's better to write to me in Telegram.</p>
+            <h4>GoodBye!</h4>
+        </main>
+    </center>
+
+
+        <script src="./js/jquery-3.6.2.min.js"></script> 
+        <script>
+
+        $("#bg-btn").click(function() {
+            document.getElementById('bg').style.backgroundImage="url(source/bg-default.jpg)";
+
+            let btn = document.getElementById("bg-btn");
+
+            btn.remove(); 
+            window.alert("Чтобы вернуть девочку, обнови страницу или нажми F5")
+            });
+
+        </script>
+    
 </body>
 </html>
