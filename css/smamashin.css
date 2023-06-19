@@ -8,7 +8,7 @@ body {
     padding: 0;
     background: url(../source/bg.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     font-family: 'Gilroy';
     display: block;
 
@@ -27,7 +27,7 @@ body {
 
 #links-vk {
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 35px;
     color: rgba(111, 132, 251, 0.682);
     margin: 25px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -35,7 +35,7 @@ body {
 
 #links-tg {
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 35px;
     color: rgba(143, 241, 248, 0.748);
     margin: 25px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -43,7 +43,7 @@ body {
 
 #links-pr {
     text-decoration: #5d7197 underline;
-    font-size: 25px;
+    font-size: 35px;
     background: linear-gradient(300deg, #303134, #5d7bb2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -52,7 +52,7 @@ body {
 
 #links-site {
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 35px;
     color: rgba(255, 0, 0, 0.484);
     margin: 25px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -165,8 +165,3 @@ body {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-
-a, p, h1, header, main {
-    display: block;
-    height: auto;
-}
