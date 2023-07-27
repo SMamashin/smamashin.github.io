@@ -4,15 +4,22 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background: url(../source/bg-low.jpg);
+    background-image: url(../source/bg.jpg);
+    background-attachment: fixed;
+    background-color: rgba(5, 5, 5, 0.842);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    background-repeat: repeat;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
     font-family: 'Gilroy';
-    display: block;
-
+    color: white;
 }
+
+
 
 #header-sm {
     margin: 0;
